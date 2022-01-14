@@ -129,10 +129,10 @@ if __name__ == '__main__':
     print("Using Babylonian method to compute square root of 2")
 
     a = Codual(2, lambda k: k)
-    x = 1
-    while not (1e-5 > x*x - a > -1e-5):
-        x = (x + a/x)/2
+    X = 1
+    while not (1e-5 > X*X - a > -1e-5):
+        X = (X + a/X)/2
     
-    (val, der) = x
-    print(f"Its value is: {val}")
-    print(f"Its derivative is: {der(1)}")
+    (x, dx) = x
+    print(f"Its value is: {x}")
+    print(f"Its derivative is: {dx(1)}")
