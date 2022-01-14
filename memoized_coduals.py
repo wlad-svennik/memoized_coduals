@@ -133,6 +133,6 @@ if __name__ == '__main__':
     while not (1e-5 > X*X - a > -1e-5):
         X = (X + a/X)/2
     
-    (x, dx) = x
+    (x, dx) = X
     print(f"Its value is: {x}")
     print(f"Its derivative is: {dx(1)}")

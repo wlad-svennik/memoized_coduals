@@ -1,4 +1,4 @@
-#   The dual numbers *can* do efficient autodiff
+#   The dual numbers *can* do efficient autodiff!
 
 The *codual numbers* are a simple method of doing *automatic differentiation* in *reverse mode*. They contrast with the *dual numbers* which provide an easy way of doing automatic differentiation in *forward mode*. The difference between the two modes is that sometimes one is faster than the other.
 
